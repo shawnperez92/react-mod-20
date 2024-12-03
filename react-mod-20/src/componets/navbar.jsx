@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './NavTabs.css';
+import './navbar.css';
 
-function NavTabs() {
+function navbar() {
     const currentPage = useLocation().pathname;
 
     return (
         <div>
            
-            <ul className="nav nav-tabs">
+            <ul className="nav nav-bar">
            
             <h1 className="nav-header" >Shawn Perez</h1>
            
@@ -41,4 +41,4 @@ function NavTabs() {
     );
 }
 
-export default NavTabs;
+export default navbar;

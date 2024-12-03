@@ -1,0 +1,26 @@
+.resume-container {
+    margin: 20px 20px 20px 20px;
+    padding: 0 50px 0 200px;
+}
+
+.skills {
+    display: inline-flex;
+    padding: 50px;
+}
+
+#skill-lists {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#resume {
+    color: white;
+    text-decoration: none'
+}
+
+@media screen and (max-width: 524px) {
+    .resume-container {
+        padding: 0 0 0 0;
+    }
+}
