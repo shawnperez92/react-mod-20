@@ -5,7 +5,7 @@ import App from './App';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Resume from './pages/resume';
-import Portfolio from './pages/porfolio';
+import Portfolio from './pages/portfolio';
 
 const router = createBrowserRouter([
     {
@@ -17,19 +17,19 @@ const router = createBrowserRouter([
                 element: <About />,
             },
             {
-                path: '/About',
+                path: '/about',
                 element: <About />,
             },
             {
-                path: '/Contact',
+                path: '/contact',
                 element: <Contact />,
             },
             {
-                path: '/Resume',
+                path: '/resume',
                 element: <Resume />,
             },
             {
-                path: '/Portfolio',
+                path: '/portfolio',
                 element: <Portfolio />,
             },
         ],
